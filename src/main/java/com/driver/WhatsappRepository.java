@@ -30,7 +30,7 @@ public class WhatsappRepository {
         this.idMessageMap = new HashMap<String,Message>();
 
         this.customGroupCount = 0;
-        this.messageId = 0;
+        this.messageId = 1;
     }
 
     public String createUser(String name, String mobile) throws Exception {
